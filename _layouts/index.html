@@ -1,9 +1,34 @@
 ---
 layout: default
 ---
-
+{% for item in site.data.main %}
 <main>
-<small><i>main</i></small>
-<h1>{{ page.title }}</h1>
-{{ content }}
+
+    <div class="row name-container">
+       <div class="small-4 columns">
+          <h1>
+            {{item.lina}}
+            {{item.maria}}
+            {{item.zoo}}
+          </h1>
+        </div>
+    </div>
+
+{% endfor %}
+
+<div class="wrapper">
+  {% for item in site.data.nav-main %}
+      
+    <div class="draggable image-small ripplelink ui-draggable ui-draggable-handle" style="background-image: url('{{item.src}}');">
+    </div>
+
+  {% endfor %}
+</div>
 </main>
+
+
+<style>
+    .draggable {
+        background-size: cover;
+    }
+</style>

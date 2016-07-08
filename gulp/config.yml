@@ -41,6 +41,7 @@ javascript:
     # Core Foundation files, all Foundation components need this!
     - "assets/vendor/foundation-sites/js/foundation.core.js"
 
+
     # Individual Foundation components
     # If you aren't using a component, just remove it from the list
     # - "assets/vendor/foundation-sites/js/foundation.abide.js"
@@ -64,7 +65,7 @@ javascript:
     # - "assets/vendor/foundation-sites/js/foundation.tooltip.js"
     # - "assets/vendor/foundation-sites/js/foundation.util.box.js"
     # - "assets/vendor/foundation-sites/js/foundation.util.keyboard.js"
-    # - "assets/vendor/foundation-sites/js/foundation.util.mediaQuery.js"
+    - "assets/vendor/foundation-sites/js/foundation.util.mediaQuery.js"
     # - "assets/vendor/foundation-sites/js/foundation.util.motion.js"
     # - "assets/vendor/foundation-sites/js/foundation.util.nest.js"
     # - "assets/vendor/foundation-sites/js/foundation.util.timerAndImageLoader.js"
